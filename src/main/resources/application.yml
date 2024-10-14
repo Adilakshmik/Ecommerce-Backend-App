@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Ecomm_App
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/sbms 
+    username: root
+    password: Adilakshmi@1
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+    show-sql: true
+    
+server:
+  port: 8081
+  
+#  data:
+#    rest:
+#      base-path: /api        
